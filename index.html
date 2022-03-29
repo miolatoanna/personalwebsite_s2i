@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Anna Miolato"/>
+    <meta name="description" content="Personal website"/>
+    <meta name="keywords" content="personal-website html css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+    <title>Website - Anna Miolato</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.png"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+
+
+  <body>
+
+  <header>
+      <nav>
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li class="dropdown"><span>Skills &#9662;</span>
+          <ul class="skills-menu">
+            <li><a href="#hard-skills">Hard Skills</a></li>
+            <li><a href="#soft-skills">Soft Skills</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </nav>
+  </header>
+
+  <a name="about" id="about"></a>
+  <div class="welcome">
+      <h1 class="animated bounceInDown">Hey! Welcome!</h1>
+      <span class="animated bounce"></span>
+  </div>
+
+
+  <section class="description">
+
+    <figure>
+      <img id="photo" src="assets/img/photo.jpeg" alt="personal photo"
+           width="350px" height="350px"/>
+    </figure>
+
+    <p>I am <em>Anna Miolato</em> and I am a <em>Full Stack Developer</em> student.<br>
+
+      My first encounter with coding took place in high school, where I graduated
+      as a computer expert. After completing my studies, however, I worked in
+      completely different fields for many years.<br><br>
+
+      I worked for 5 years in an office without dreaming and without interest in
+      my daily tasks, so I took the decision to change my life, starting with my job!
+      Now, I love the world of web development.<br><br>
+
+      I love travelling, photography and sunsets. I am addicted to good coffee.
+      I want to work wherever I can (obviously with Wi-fi!!) because I want to
+      see as much of the World as possible!<br><br>
+
+  </section>
+
+
+<div class="color-boxes">
+
+  <a name="hard-skills" id="hard-skills"></a>
+  <section>
+
+    <div class="hard">
+      <h2>HARD SKILLS</h2>
+    </div>
+
+    <div class="skills-boxes">
+    <div class="skills">HTML
+      <img src="assets/icons/icon-html.svg" alt="html logo"/>
+    </div>
+
+    <div class="skills">CSS
+      <img src="assets/icons/icon-css3.svg" alt="css logo"/>
+    </div>
+
+    <div class="skills">BOOTSTRAP
+      <img src="assets/icons/icon-bootstrap.svg" alt="bootstrap logo"/>
+    </div>
+
+    <div class="skills">ATOM
+      <img src="assets/icons/icon-editor.svg" alt="atom editor logo"/>
+    </div>
+
+    <div class="skills">GIT
+      <img src="assets/icons/icon-git.svg" alt="git logo"/>
+    </div>
+    </div>
+  </section>
+
+
+  <a name="soft-skills" id="soft-skills"></a>
+  <section>
+
+    <div class="soft">
+      <h2>SOFT SKILLS</h2>
+    </div>
+
+  <div class="skills-boxes">
+    <div class="skills">PROBLEM SOLVING
+    </div>
+
+    <div class="skills">TEAM PLAYER
+    </div>
+
+    <div class="skills">ADAPTABILITY
+    </div>
+
+    <div class="skills">ORGANIZATION &amp; PRECISION
+    </div>
+
+    <div class="skills">CREATIVITY
+    </div>
+  </div>
+  </section>
+
+</div>
+
+  <a name="contact" id="contact"></a>
+  <section class="contact-part">
+    <p>I want to stay in touch with you.<br>
+       Please <em>follow me</em> on social media so we can keep in touch!</p>
+
+    <div class="icons">
+      <a href="https://www.instagram.com/miolatoanna/"><img src="assets/icons/icon-instagram.svg" class="icons"/></a>
+      <a href="https://www.linkedin.com/in/annamiolato/"><img src="assets/icons/icon-linkedin.svg" class="icons"/></a>
+      <a href="mailto:miolatoanna1@gmail.com"><img src="assets/icons/icon-mail.svg" class="icons"/></a>
+      <a href="https://github.com/miolatoanna"><img src="assets/icons/icon-github.svg" class="icons"/></a>
+    </div>
+  </section>
+
+  <div class="box-form">
+  <form class="form-row" action="index.html" method="post">   <!--Nel campo action non ho inserito nulla appositamete al momento-->
+    <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your Name"/>
+    <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="Your Email"/>
+    <label for="subject">Subject</label>
+      <input id="subject" name="subject" type="text" placeholder="Subject of your email"/>
+    <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Shall we have a coffee and talk about the project?"></textarea>
+    <label for="check" class="label-checkbox">
+      <input id="check" name="check" type="checkbox"/>
+      <span>I am Human</span>
+    </label>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+  </div>
+
+
+  <footer>
+    <p>Website made with &#x2764;</p> <p>&#169; Anna Miolato, 2022</p>
+  </footer>
+
+  </body>
+
+</html>
